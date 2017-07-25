@@ -7,7 +7,6 @@
         {% csrf_token %}
         <input type="submit" class="btn btn-danger" value="Delete">
         <a href="{% url 'portfolio:home' pk=investment.cust_number %} ">Cancel</a>
-
-    </form>
+        </form>
 
 {% endblock %}
